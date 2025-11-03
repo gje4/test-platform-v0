@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dawgs - Man's Best Friend</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 15px 40px;
+            background: white;
+            color: #667eea;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+
+        .features {
+            max-width: 1200px;
+            margin: 80px auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+        }
+
+        .feature-card {
+            background: #f8f9fa;
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .feature-card .icon {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .feature-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            color: #667eea;
+        }
+
+        .feature-card p {
+            color: #666;
+            line-height: 1.8;
+        }
+
+        footer {
+            background: #2d3748;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 80px;
+        }
+
+        footer p {
+            opacity: 0.8;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero p {
+                font-size: 1.2rem;
+            }
+
+            .features {
+                margin: 40px auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <h1>🐕 Dawgs</h1>
+        <p>Celebrating humanity's most loyal companions</p>
+        <a href="#features" class="cta-button">Learn More</a>
+    </section>
+
+    <section class="features" id="features">
+        <div class="feature-card">
+            <div class="icon">❤️</div>
+            <h3>Unconditional Love</h3>
+            <p>Dogs offer pure, unwavering affection. They greet you with excitement every single day, no matter what.</p>
+        </div>
+
+        <div class="feature-card">
+            <div class="icon">🏃</div>
+            <h3>Active Lifestyle</h3>
+            <p>From morning walks to park adventures, dogs keep us moving and healthy while having fun together.</p>
+        </div>
+
+        <div class="feature-card">
+            <div class="icon">🛡️</div>
+            <h3>Loyal Protectors</h3>
+            <p>Dogs are natural guardians who watch over their families with dedication and courage.</p>
+        </div>
+
+        <div class="feature-card">
+            <div class="icon">😊</div>
+            <h3>Endless Joy</h3>
+            <p>Their playful antics and goofy personalities bring laughter and happiness into our lives every day.</p>
+        </div>
+
+        <div class="feature-card">
+            <div class="icon">🤝</div>
+            <h3>True Companions</h3>
+            <p>Whether you're reading, watching TV, or just relaxing, dogs are always there by your side.</p>
+        </div>
+
+        <div class="feature-card">
+            <div class="icon">🌟</div>
+            <h3>Life Teachers</h3>
+            <p>Dogs teach us about living in the moment, forgiveness, and finding joy in simple things.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Dawgs Landing Page. Made with love for all the good boys and girls.</p>
+    </footer>
+</body>
+</html>
